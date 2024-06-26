@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Narbar Large Screen Display</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bondi.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+</head>
+<body>
+<!-- Nav Bar-->
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="imgs/logo.png" alt="Samir" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#main"
+        aria-controls="main"
+        aria-expanded="false"
+        aria-label="Toggle navigation"><i class="fa-solid fa-bars"></i></button>
+        <div class="collapse navbar-collapse" id="main">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3 active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#">Contact</a>
+            </li>
+          </ul>
+          <div class="search ps-3 pe-3 d-none d-lg-block">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <a class="btn rounded-pill main-btn" href="#">Login</a>
+        </div>
+      </div>
+    </nav>
+
+<!-- Slide -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imgs/blog-1.jpg" class="d-block w-100" alt="Blog Post" />
+    </div>
+    <div class="carousel-item">
+      <img src="imgs/blog-2.jpg" class="d-block w-100" alt="Blog Post" />
+    </div>
+    <div class="carousel-item">
+      <img src="imgs/blog-3.jpg" class="d-block w-100" alt="Blog Post" />
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- Card -->
+  <div class="myCards container mt-5">
+    <div class="row">
+        <div class="col-md-12 col-lg-4">
+            <div class="card mb-4 text-center" style="width: 100%;">
+                <div class="row g-0">
+                    <div class="col-lg-12 col-md-4">
+                        <img src="imgs/work-01.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-lg-12 col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Stratégie et direction </h5>
+                            <p class="card-text">La stratégie et l’orientation du commerce électronique font référence à la planification et à l’exécution des ventes en ligne d’une entreprise</p>
+                            <a href="#" class="btn btn-primary text-white">Afficher plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-lg-4">
+            <div class="card mb-4 text-center" style="width: 100%;">
+                <div class="row g-0">
+                    <div class="col-lg-12 col-md-4">
+                        <img src="imgs/work-02.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-lg-12 col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">E-Commerce & Development</h5>
+                            <p class="card-text">Pour réussir dans le développement du commerce électronique, les entreprises doivent se concentrer sur l’image de marque et le marketing</p>
+                            <a href="#" class="btn btn-primary text-white">Afficher plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-lg-4">
+            <div class="card mb-4 text-center" style="width: 100%;">
+                <div class="row g-0">
+                    <div class="col-lg-12 col-md-4">
+                        <img src="imgs/work-03.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-lg-12 col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Génération de contenu</h5>
+                            <p class="card-text">Générer un contenu de haute qualité demande du temps et des efforts, mais c’est essentiel pour construire un site en ligne solide</p>
+                            <a href="#" class="btn btn-primary text-white">Afficher plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Notre Equipe-->    
+    <div class="team text-center pb-5 pt-3">
+      <div class="container pb-3 pt-3">
+        <h2 class="fw-bold">Notre Equipe</h2>
+      </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <div class="box  ">
+              <img class="img-fluid rounded-circle mb-3" src="imgs/team-1.jpeg" alt="" />
+              <h4 class="p-3 text-light">Alex Chen</h4>
+              <blockquote class="text-black-50 p-3">
+                “Diplômé en informatique et passionné par la cybersécurité, Alex protège les logiciels des vulnérabilités depuis 3 ans.“
+              </blockquote>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box">
+              <img class="img-fluid rounded-circle mb-3" src="imgs/team-2.jpeg" alt="" />
+              <h4 class="p-3 text-light">David Hernandez</h4>
+              <blockquote class="text-black-50 p-3">
+                “David a un sens aigu du design et une compréhension approfondie de l'expérience utilisateur.“
+              </blockquote>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box">
+              <img class="img-fluid rounded-circle mb-3" src="imgs/team-3.jpg" alt="" />
+              <h4 class="p-3 text-light">Evelyn Ramirez</h4>
+              <blockquote class="text-black-50 p-3">
+                “Ramirez apporte à l'équipe une riche expérience en analyse de données et en apprentissage automatique.“
+              </blockquote>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box">
+              <img class="img-fluid rounded-circle mb-3" src="imgs/team-4.jpeg" alt="" />
+              <h4 class="p-3 text-light">Marc Durand</h4>
+              <blockquote class="text-black-50 p-3">
+                “Marc est chef de projet expérimenté depuis 10 ans. Habile en organisation et en gestion d'équipe.“
+              </blockquote>
+            </div>
+          </div>
+        </div>
+    </div>
+
+<!-- Footer -->
+<section class="footer text-center ">
+  <div class=" container pt-3">
+    
+      <div class="sectContact">
+          <div class="row text-white">
+              <div class="col-lg-6 ">
+                  <ul class="social-links">
+                      <li class="d-flex ">
+                          <i class="fa-brands fa-facebook fa-lg facebook rounded-circle p-2 mb-3 mx-3 "></i>
+                          <a href="https://www.facebook.com/" target="_blank" class="text-white">https://www.facebook.com/</a>
+                      </li>
+                      <li class="d-flex">
+                          <i class="fa-brands fa-twitter fa-lg twitter rounded-circle p-2 mb-3 mx-3"></i>
+                          <a href="https://x.com/" target="_blank" class="text-white">https://x.com/</a>
+                      </li>
+                      <li class="d-flex">
+                          <i class="fa-brands fa-youtube fa-lg youtube rounded-circle p-2 mb-3 mx-3"></i>
+                          <a href="https://www.youtube.com/" target="_blank" class="text-white">https://www.youtube.com/</a>
+                      </li>
+                      <li class="d-flex">
+                          <i class="fa-brands fa-linkedin fa-lg linkedin rounded-circle p-2 mb-3 mx-3"></i>
+                          <a href="https://www.linkedin.com/" target="_blank" class="text-white">https://www.linkedin.com/</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-md-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44136.04236554304!2d-1.902143617893619!3d34.69430819239773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7864984106d6ef%3A0x1d86b33244c4650!2sOujda!5e0!3m2!1sen!2sma!4v1719070967487!5m2!1sen!2sma" width="600" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+</body>
+</html>
